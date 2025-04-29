@@ -1,8 +1,8 @@
 ## 🌼 프론트엔드 5-6주차 과제 레포지토리입니다.
 
-멋쟁이사자처럼 12기 프론트엔드 **마켓컬리** 클론 코딩
+멋쟁이사자처럼 13기 프론트엔드 **마켓컬리** 클론 코딩
 
-[피그마 링크](https://www.figma.com/design/QGRWFGJkl76ALiF4wJmMaS/%EB%A7%88%EC%BC%93%EC%BB%AC%EB%A6%AC-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9?node-id=0%3A1&t=ARtxG3bGHf97tu1Z-1)
+[피그마 링크](https://www.figma.com/design/5raQ1JN4zTXLTG9tKLeXU1/%EB%A7%88%EC%BC%93%EC%BB%AC%EB%A6%AC-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9?node-id=0-1&t=oYpe0DFiFwOWsWPB-1)
 
 ---
 
@@ -10,17 +10,17 @@
 
 # 🍎 Mac
 
-### 0. python 3.11 버전 설치
+### 0. python 3.12 버전 설치
 
 ```SSH
-https://www.python.org/ 에서 3.11 버전을 설치해주세요.
+https://www.python.org/ 에서 3.12 버전을 설치해주세요.
 ```
 
 ### 1. python virtualenv를 이용한 가상환경 정의
 
 ```SSH
 # 프로젝트를 생성하려는 폴더경로에서 git bash를 열고..
-python3.11 -m venv venv
+python3.12 -m venv venv
 ```
 
 ---
@@ -56,7 +56,7 @@ python manage.py runserver
 ```SSH
 # 프로젝트를 생성하려는 폴더경로에서 git bash를 열고..
 pip install virtualenv
-virtualenv venv --python=3.11
+virtualenv venv --python=3.12
 ```
 
 ---
