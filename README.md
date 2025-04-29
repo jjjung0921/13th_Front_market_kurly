@@ -10,17 +10,17 @@
 
 # 🍎 Mac
 
-### 0. python 3.11 버전 설치
+### 0. python 3.12 버전 설치
 
 ```SSH
-https://www.python.org/ 에서 3.11 버전을 설치해주세요.
+https://www.python.org/ 에서 3.12 버전을 설치해주세요.
 ```
 
 ### 1. python virtualenv를 이용한 가상환경 정의
 
 ```SSH
 # 프로젝트를 생성하려는 폴더경로에서 git bash를 열고..
-python3.11 -m venv venv
+python3.12 -m venv venv
 ```
 
 ---
@@ -56,7 +56,7 @@ python manage.py runserver
 ```SSH
 # 프로젝트를 생성하려는 폴더경로에서 git bash를 열고..
 pip install virtualenv
-virtualenv venv --python=3.11
+virtualenv venv --python=3.12
 ```
 
 ---
